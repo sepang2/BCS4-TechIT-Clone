@@ -92,6 +92,7 @@ h6 {
 
 ul {
   list-style: none;
+  padding: 0px;
 }
 
 li {
@@ -124,6 +125,7 @@ button {
 .header-menu {
   display: flex;
   gap: 36px;
+  padding-left: 40px;
 }
 
 .header-login {
