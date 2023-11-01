@@ -294,7 +294,7 @@ button {
   color: #737373;
 }
 
-.techit-school-container > .onboarding {
+.onboarding {
   margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -357,4 +357,47 @@ button {
   font-size: 14px;
   font-weight: 600;
   border-radius: 4px;
+}
+
+.education {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+
+.education > li {
+  width: 540px;
+  height: 250px;
+  border-radius: 20px;
+  padding: 40px;
+  background-size: cover;
+}
+
+.education-card-techit {
+  background-image: url(./images/techit.png);
+}
+
+.education-card-kdc {
+  background-image: url(./images/kdc.png);
+}
+
+.education-card-startup {
+  background-image: url(./images/startup.png);
+}
+
+.education > li > h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.education > li > h5 {
+  font-size: 16px;
+}
+
+.education > li > button {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #737373;
 }
